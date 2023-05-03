@@ -1,0 +1,103 @@
+{
+    "intents": [
+      {
+        "tag": "Contact Us",
+        "patterns": [
+          "Support",
+          "Contact",
+          "Email",
+          "Phone Number"
+          
+          
+        ],
+        "responses": [
+          "www.palisade.com/support",
+          "www.palisade.com/contact",
+          "sales@palisade.com",
+          "USA- +1607277800"
+          
+          
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","ok"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "Training",
+        "patterns": [
+          "Training",
+          "Knowledge Base",
+          "Technical Support"
+         
+        ],
+        "responses": [
+          "www.palisade.com/support/training",
+          "kb.palisade.com",
+          "www.palisade.com/support/technical-support"
+          
+        ]
+      },
+      {
+        "tag": "Features",
+        "patterns": ["Monte Carlo Simulation",
+        "Sophisticated Optimization",
+        "Sensitivity Analysis",
+        "Decision Trees",
+        "Predictive Neural Networks",
+        "Statistical Analysis & Forecasting"
+        
+         
+        ],
+        "Links": ["www.palisade.com/monte-carlo-simulation",
+        "www.palisade.com/sophisticated-optimization",
+          "www.palisade.com/sophisticated-optimization",
+          "www.palisade.com/decision-trees",
+          "www.palisade.com/predictive-neural-networks",
+          "www.palisade.com/statistical-analysis-and-forecasting"
+
+        ]
+      },
+      {
+        "tag": "Address",
+        "patterns": [
+          "Address"
+          
+        ],
+        "responses": [
+          "555,Fayetteville,StreetSuite,300,Raleigh,NC,27601,USA"
+         
+        ]
+      },
+      {
+        "tag": "About Us",
+        "patterns": [
+          "Team",
+         "Customers",
+          "Blogs",
+          "Events"
+        ],
+        "responses": [
+          "lumivero.com/company/executive-team",
+          "www.palisade.com/case-studies",
+          "www.palisade.com/blog-news",
+          "www.palisade.com/events"
+
+        ]
+      },{
+        "tag": "Hi",
+        "patterns": ["Hello", "Hey!", "Hey There", "Holla","Hi"],
+        "responses": ["Hello", "Hey There","Hi", "Hello","Hi,How can I help you?"]
+      }
+    ]
+  }
